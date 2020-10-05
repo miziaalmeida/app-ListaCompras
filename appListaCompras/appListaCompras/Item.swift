@@ -10,9 +10,9 @@ import Foundation
 
 class Item {
     var nome: String
-    var quantidade: Int
+    var quantidade: Double
     
-    init(nome: String, quantidade: Int) {
+    init(nome: String, quantidade: Double) {
         self.nome = nome
         self.quantidade = quantidade
     }

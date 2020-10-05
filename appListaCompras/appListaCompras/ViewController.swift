@@ -11,9 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     //MARK: Variaveis
-    var arrayItens = [Item]()
-    
-    
+    var itemList = ItemManager()
     
     //MARK: Outlets
     @IBOutlet weak var textFieldNome: UITextField!
